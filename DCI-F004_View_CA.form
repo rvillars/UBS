@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "cols": [
+        {
+          "isRequired": false,
+          "visible": true,
+          "size": 6,
+          "ignore": false,
+          "id": "cloud-text1",
+          "label": "First Name",
+          "type": "text",
+          "value": "{{firstName}}",
+          "enabled": false,
+          "i18n": {
+            "en_us": {
+              "label": "First Name"
+            }
+          }
+        },
+        {
+          "isRequired": false,
+          "visible": true,
+          "size": 6,
+          "ignore": false,
+          "id": "cloud-text2",
+          "label": "Last Name",
+          "type": "text",
+          "value": "{{lastName}}",
+          "enabled": false,
+          "i18n": {
+            "en_us": {
+              "label": "Last Name"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "isRequired": false,
+          "visible": true,
+          "size": 6,
+          "ignore": false,
+          "id": "cloud-text3",
+          "label": "T-Number",
+          "type": "text",
+          "value": "{{tNumber}}",
+          "enabled": false,
+          "i18n": {
+            "en_us": {
+              "label": "T-Number"
+            }
+          }
+        },
+        {
+          "isRequired": false,
+          "visible": true,
+          "size": 6,
+          "ignore": false,
+          "id": "cloud-text4",
+          "label": "GPN",
+          "type": "text",
+          "value": "{{gpn}}",
+          "enabled": false,
+          "i18n": {
+            "en_us": {
+              "label": "GPN"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "isRequired": false,
+          "visible": true,
+          "size": 6,
+          "ignore": false,
+          "id": "cloud-text5",
+          "label": "Mail",
+          "type": "text",
+          "value": "{{email}}",
+          "enabled": false,
+          "i18n": {
+            "en_us": {
+              "label": "Mail"
+            }
+          }
+        },
+        {
+          "isRequired": true,
+          "ignored": false,
+          "visible": true,
+          "extraSettings": {
+            "enableAutocomplete": false,
+            "preselectAll": false,
+            "tagsEnabled": false,
+            "identity": "value",
+            "linkTarget": "_blank",
+            "storage": "Id",
+            "items": [
+              {
+                "text": "HK-030",
+                "value": "HK-030"
+              },
+              {
+                "text": "SG-046",
+                "value": "SG-046"
+              }
+            ],
+            "dataSource": "Static",
+            "autocompleteMinLength": 1,
+            "linkTargetView": "browse",
+            "multi": false
+          },
+          "size": 6,
+          "id": "single-select-entity-id",
+          "label": "Entity Id",
+          "type": "select",
+          "value": "{{entityId}}",
+          "i18n": {
+            "en_us": {
+              "extraSettings": {
+                "items": [
+                  {
+                    "text": "HK-030",
+                    "value": "HK-030"
+                  },
+                  {
+                    "text": "SG-046",
+                    "value": "SG-046"
+                  }
+                ]
+              },
+              "label": "Entity Id"
+            }
+          },
+          "enabled": false
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "key": "F004-viewCA",
+    "name": "DCI-F004 View CA",
+    "description": "",
+    "version": "4"
+  }
+}
