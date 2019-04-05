@@ -1,0 +1,31 @@
+[
+  {
+    "variationKey": "whatsAppNoMoreTemplateMessagesLeft_en",
+    "templateDefinitionKey": "standardMessage",
+    "name": "WhatsApp maximum template messages reached",
+    "versionTimestamp": "2019-03-14",
+    "variationContent": "Maximum allowed templated messages have been sent for this client. You can send the next templated message tomorrow or text messages once the client replies."
+  },
+  {
+    "variationKey": "timeout_en",
+    "templateDefinitionKey": "whatsAppTemplates",
+    "name": "WhatsApp timeout template (en)",
+    "versionTimestamp": "2019-04-02",
+    "variationContent": "Hi ${input1}, are you free to ${input2}.",
+    "externalId": "chat_alert",
+    "parameters" : [
+      {
+        "name": "Input 1",
+        "key": "input1",
+        "type": "string",
+        "mandatory": true
+      },
+      {
+        "name": "Input 2",
+        "key": "input2",
+        "type": "string",
+        "mandatory": true
+      }
+    ]
+  }
+]
